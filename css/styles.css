@@ -208,7 +208,7 @@ position:absolute;
  top:0px;
 /*left:0; */
 
-width:1350px;
+width:100vw;
 height:1050px;
 opacity: 1;
 transition: opacity 0.2s cubic-bezier(0.4,0,0.2,1);
