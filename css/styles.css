@@ -209,7 +209,7 @@ position:absolute;
 /*left:0; */
 
 width:calc(100vw - 15px);
-height:1050px;
+height:3030px;
 opacity: 1;
 transition: opacity 0.2s cubic-bezier(0.4,0,0.2,1);
 }
@@ -273,6 +273,7 @@ border-color: rgba(0, 0, 0, 0.1);
   background-color: #2196f3;
   color: white;
   padding: 10px 32px;
+  cursor: pointer;
 }
 
 /* section 2 */
