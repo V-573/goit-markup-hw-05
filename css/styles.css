@@ -219,22 +219,41 @@ transition: opacity 0.2s cubic-bezier(0.4,0,0.2,1);
 pointer-events: none;
 opacity:0;
 }
+
+
+.modal-form__input{
+  display: block;
+  height: 35px ;
+  padding: 10px;
+  outline:none;
+}
+
+
+
 .modal{
 
-display: flex; 
+/* display: flex;  */
 background-color: #ffffff;
 width:528px;
 height:581px;
 opacity:1;
+padding: 40px;
 transition: transform cubic-bezier(0.4,0,0.2,1) .4s;
 transform: translateY(0);
 justify-content: end;
 align-items: flex-start;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
+
 }
 
+/* .modal.is-hidden{
+  transform: translateY(200px);
+  opacity: 0;
+} */
+
 .positionX{
+
 background-color: transparent;
 border-radius:50%;
 border-color: rgba(0, 0, 0, 0.1);
@@ -519,6 +538,7 @@ h5 {
   background-color: #2196f3;
   border-radius: 22px;
   border: 1px #afb1b8 solid;
+  outline: none;
 }
 
 .section4-container:hover .section4-logo,
@@ -526,6 +546,7 @@ h5 {
   border-color: #fff;
   fill: #fff;
   background-color: #2196f3;
+  
 }
 
 .section4-logo {
@@ -575,9 +596,11 @@ h5 {
 .section5-client-container:focus {
   border-color: #2196f3;
   fill: #2196f3;
+  outline: none;
 }
 
-.container .section5-client-container .section5-client-logo {
+
+.section5-client-logo {
   height: 52px;
   width: 106px;
   fill: #afb1b8 solid;
