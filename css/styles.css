@@ -232,12 +232,12 @@ opacity:0;
 
 .modal{
 
-/* display: flex;  */
+display: flex; 
 background-color: #ffffff;
 width:528px;
 height:581px;
 opacity:1;
-padding: 40px;
+/* padding: 40px; */
 transition: transform cubic-bezier(0.4,0,0.2,1) .4s;
 transform: translateY(0);
 justify-content: end;
@@ -247,10 +247,6 @@ border-radius: 4px;
 
 }
 
-/* .modal.is-hidden{
-  transform: translateY(200px);
-  opacity: 0;
-} */
 
 .positionX{
 
