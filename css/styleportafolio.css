@@ -68,7 +68,6 @@ body {
   .header_email {
     display: inline-flex;
     padding-left: 10px;
-  
     text-decoration: none;
     list-style-type: none;
     color: #757575;
