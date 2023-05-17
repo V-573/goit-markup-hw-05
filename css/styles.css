@@ -67,6 +67,7 @@ figure {
 .header_ul .estudio::after a:hover,       
 .header_ul a:focus {
   color: #2196f3;
+  outline: none;
 }
 .estudio::after{
  position: absolute;
@@ -134,6 +135,7 @@ border-radius: 2px;
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 .header_email:hover .icon-sobre,
@@ -141,6 +143,7 @@ border-radius: 2px;
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 .icon-sobre {
@@ -175,6 +178,7 @@ border-radius: 2px;
 .header_ul a:hover,       
 .header_ul a:focus {
   color: #2196f3;
+  outline: none;
 }
 
 
@@ -189,6 +193,7 @@ border-radius: 2px;
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 .header_phone:hover,
@@ -196,6 +201,7 @@ border-radius: 2px;
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 /* section 1 */
 
@@ -650,6 +656,7 @@ address p {
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 .footer_email:hover,
@@ -657,6 +664,7 @@ address p {
   color: #2196f3;
   fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 /* <!--------------- footer social netwok ------------> */
