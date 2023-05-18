@@ -1,18 +1,19 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+:root{
+  --color--gray:#EEEEEE;
+}
+
 body {
     background-color: #ffffff;
   }
+
+
   
-  ul {
-    padding-inline-start: 0px;
-  }
   
-  li {
-    padding-inline-start: 0px;
-  }
-  
-  figure {
-    margin: 0px;
-  }
   
   .container {
     width: 1200px;
@@ -269,6 +270,9 @@ body {
    
   }
 
+  .shadow{
+    border:1px solid var(--color--gray)
+  }
 .shadow:hover,
 .shadow:focus {
   background: #ffffff;
@@ -389,7 +393,7 @@ address p {
 /* <!--------------- footer social netwok ------------> */
 
 .text-footer {
- 
+ margin-bottom: 20px;
   color: #ffffff;
 }
 .footer-flex {

@@ -1,18 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  }
+
+:root{
+    --color--gray:#EEEEEE;
+    --color--blue:#2196f3;
+  }
+
 body {
   background-color: #ffffff;
 }
 
-ul {
-  padding-inline-start: 0px;
-}
-
-li {
-  padding-inline-start: 0px;
-}
-
-figure {
-  margin: 0px;
-}
 
 .container {
   width: 1200px;
@@ -33,7 +32,7 @@ figure {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color--blue);
   margin-bottom: 25px;
   margin-top: 24px;
   margin-right: 93px;
@@ -66,7 +65,7 @@ figure {
 
 .header_ul .estudio::after a:hover,       
 .header_ul a:focus {
-  color: #2196f3;
+  color: var(--color--blue);
   outline: none;
 }
 .estudio::after{
@@ -77,7 +76,7 @@ figure {
   width: 0px; /*logro que inicialmente no aparesca en pantalla */
 height: 4px;
 
-background: #2196F3;
+background: var(--color--blue);
 border-radius: 2px;
 }
 .estudio:hover::after{
@@ -92,7 +91,7 @@ width: 0px;
 height: 4px;
 bottom:0;
 left:0;
-background: #2196F3;
+background: var(--color--blue);
 border-radius: 2px;
 }
 .portafolio:hover::after{
@@ -107,7 +106,7 @@ border-radius: 2px;
 height: 4px;
 bottom:0;
 left:0;
-background: #2196F3;
+background: var(--color--blue);
 border-radius: 2px;
 }
 .contactos:hover::after{
@@ -132,17 +131,17 @@ border-radius: 2px;
 
 .header_email:hover,
 .header_email:focus {
-  color: #2196f3;
-  fill: #2196f3;
-  border-color: #2196f3;
+  color: var(--color--blue);
+  fill: var(--color--blue);
+  border-color: var(--color--blue);
   outline: none;
 }
 
 .header_email:hover .icon-sobre,
 .header_email:focus .icon-sobre {
-  color: #2196f3;
-  fill: #2196f3;
-  border-color: #2196f3;
+  color: var(--color--blue);
+  fill: var(--color--blue);
+  border-color: var(--color--blue);
   outline: none;
 }
 
@@ -177,7 +176,7 @@ border-radius: 2px;
 
 .header_ul a:hover,       
 .header_ul a:focus {
-  color: #2196f3;
+  color: var(--color--blue);
   outline: none;
 }
 
@@ -670,7 +669,7 @@ address p {
 /* <!--------------- footer social netwok ------------> */
 
 .text-footer {
- 
+  margin-bottom: 20px;
   color: #ffffff;
 }
 .footer-flex {
